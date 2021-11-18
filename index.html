@@ -9,43 +9,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div class="container">
-       <nav class="navbar" id="nav-id">
-           <button type="button" onclick="myFunction(this)" class="toggle-collapse" id="toggle-button">
-               <span class="toggle-icon"></span>
-           </button>
+<!DOCTYPE html>
+<html lang="en">
 
-           <ul class="side-nav">
-               <li class="nav-item">
-                   <a href="#" class="site-name">Daily tution</a>
-               </li>
-               <li class="nav-item">
-                   <a href="#" class="nav-link">Home</a>
-               </li>
-               <li class="nav-item">
-                   <a href="#" class="nav-link">Blog</a>
-               </li>
-                <li class="nav-item">
-                   <a href="#" class="nav-link">Features</a>
-               </li>
-               <li class="nav-item">
-                   <a href="#" class="nav-link">Pricing</a>
-               </li>
-                <li class="nav-item">
-                   <a href="#" class="nav-link">Contact Us</a>
-               </li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapsible Sidebar</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
 
-               <li class="nav-item">
-                   <a href="#" class="nav-link">
-                       <i class="fab fa-facebook-f"></i>
-                       <i class="fab fa-twitter"></i>
-                       <i class="fab fa-instagram"></i>
-                       <i class="fab fa-youtube"></i>
-                   </a>
-               </li>
-           </ul>
-       </nav>
-   </div>
+<body>
+<div class="page-container">
+    <nav class="nav">
+        <div class="nav__border"></div>
+        <a href="#" class="nav__link">
+            <div class="nav__icon-container">
+                <i class="material-icons">dashboard</i>
+            </div>
+            <span class="nav__label">Dashboard</span>
+        </a>
+        <a href="#" class="nav__link">
+            <div class="nav__icon-container">
+                <i class="material-icons">alarm</i>
+            </div>
+            <span class="nav__label">Alerts</span>
+        </a>
+        <a href="#" class="nav__link">
+            <div class="nav__icon-container">
+                <i class="material-icons">extension</i>
+            </div>
+            <span class="nav__label">Plugins</span>
+        </a>
+        <a href="#" class="nav__link">
+            <div class="nav__icon-container">
+                <i class="material-icons">power_settings_new</i>
+            </div>
+            <span class="nav__label">Log Out</span>
+        </a>
+    </nav>
+    <main class="main">
+
+    </main>
+</div>
+
 <script src="./script.js"></script>
 </body>
 </html>
