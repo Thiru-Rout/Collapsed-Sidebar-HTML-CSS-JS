@@ -6,7 +6,7 @@ function myFunction(e){
         style = window.getComputedStyle(elem),
         right = style.getPropertyValue("right");
 
-    if (right === "0"){
+    if (right === "0px"){
         let elam;
         elam.style.right = "-260px";
     }else {
